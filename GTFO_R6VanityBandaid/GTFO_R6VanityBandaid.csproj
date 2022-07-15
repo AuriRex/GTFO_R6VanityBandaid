@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Addons-ASM">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\Addons-ASM.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.IL2CPP">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\BepInEx.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Preloader.Core">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\BepInEx.Preloader.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Cpp2IL.Core">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Cpp2IL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DropServerSDK-ASM">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\DropServerSDK-ASM.dll</HintPath>
+    </Reference>
+    <Reference Include="Gee.External.Capstone">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Gee.External.Capstone.dll</HintPath>
+    </Reference>
+    <Reference Include="Iced">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Iced.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Generator">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Il2CppInterop.Generator.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.HarmonySupport">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Il2CppInterop.HarmonySupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="IndexRange">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\IndexRange.dll</HintPath>
+    </Reference>
+    <Reference Include="LibCpp2IL">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\LibCpp2IL.dll</HintPath>
+    </Reference>
+    <Reference Include="Modules-ASM">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\Modules-ASM.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\MonoMod.RuntimeDetour.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\MonoMod.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFab-ASM">
+      <HintPath>..\..\..\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\PlayFab-ASM.dll</HintPath>
+    </Reference>
+    <Reference Include="SemanticVersioning">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\SemanticVersioning.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\interop\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="WasmDisassembler">
+      <HintPath>O:\SteamLibrarySSD\steamapps\common\GTFO_R6\BepInEx\core\WasmDisassembler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
