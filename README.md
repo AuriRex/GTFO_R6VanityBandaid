@@ -8,4 +8,4 @@ Features:
 
 # License
 
-The project is licensed under the GPLv3 license, however sections of code in the source files are marked with `// START OF MIT CODE` and `// END OF MIT CODE` to signal code that is licensed under MIT instead (see [LICENSE-OTHER.md](LICENSE-OTHER.md)).
+The project is licensed under the [GPL-3.0](LICENSE.md) license, however sections of code in the source files are marked with `// START OF MIT CODE` and `// END OF MIT CODE` to signal code that is licensed under MIT instead (see [LICENSE-OTHER.md](LICENSE-OTHER.md)).
