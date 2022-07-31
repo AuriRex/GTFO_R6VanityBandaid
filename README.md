@@ -2,9 +2,14 @@
 
 R6 `SERVER SYNC` stuck fix.
 
-Features:
- - Unlocks all Clothing items locally and fixes `SERVER SYNC`
- - removes the ability to see and/or use boosters in this version at all
+### "Features":
+ - No more constant flashing `SERVER SYNC`
+ - Unlocks all clothing items locally
+   - (This does not give you any items in other versions!!)
+ - removes boosters in this version completely
+   - (You're still able to earn boosters but you can't see your progress or use them)
+ - Clothing items should also be unlockable but I am literally unable to test this
+   - (And once again you can not see your unlocks in this version)
 
 # Installation
 
