@@ -1,3 +1,5 @@
+# Doesn't completely work - Check out [TheArchive](https://github.com/AuriRex/GTFO_TheArchive) instead
+
 # GTFO_R6VanityBandaid
 
 R6 `SERVER SYNC` stuck fix.
